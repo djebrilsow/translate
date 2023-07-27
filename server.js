@@ -14,7 +14,7 @@ import {fileURLToPath} from 'url';
 dotenv.config();
 
 // connect to DB
-connectDB
+connectDB;
 // esemodule fix
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
