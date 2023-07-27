@@ -4,10 +4,10 @@ import dotenv from 'dotenv'
 import morgan from 'morgan';
 import connectDB from './config/db.js';
 import authRoutes from './routes/authRoute.js';
-import categoryRoutes from './routes/categoryRoute.js'
-import lexiqueRoutes from './routes/lexiqueRoute.js'
-import cors from 'cors'
-import path from 'path'
+import categoryRoutes from './routes/categoryRoute.js';
+import lexiqueRoutes from './routes/lexiqueRoute.js';
+import cors from 'cors';
+import path from 'path';
 import {fileURLToPath} from 'url';
 
 // config dotenv
