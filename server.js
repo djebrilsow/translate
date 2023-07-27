@@ -8,12 +8,16 @@ import categoryRoutes from './routes/categoryRoute.js'
 import lexiqueRoutes from './routes/lexiqueRoute.js'
 import cors from 'cors'
 import path from 'path'
+import {fileURLToPath} from 'url';
 
 // config dotenv
 dotenv.config();
 
 // connect to DB
 connectDB
+// esemodule fix
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express()
 
